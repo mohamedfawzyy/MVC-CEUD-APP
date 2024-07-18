@@ -1,0 +1,28 @@
+﻿@model Department;
+@{
+    ViewData["Title"] = "view";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="bg-light w-75 mx-auto py-5">
+    <h1 class="alert alert-info text-center">Detailes of Department : @Model.Name</h1>
+    <div class="mb-3">
+        <label asp-for="Code" class="form-label"></label>
+        <input asp-for="Code" value="@Model.Code" class="form-control" readonly>
+
+    </div>
+    <div class="mb-3">
+        <label asp-for="Name" class="form-label"></label>
+        <input asp-for="Name" value="@Model.Name" class="form-control" readonly>
+
+    </div>
+    <div class="mb-3">
+        <label asp-for="DateOfCreation" class="form-label"></label>
+        <input type="text" value="@Model.DateOfCreation.ToString()" class="form-control" readonly>
+    </div>
+    <div>
+        <a class="btn btn-warning" asp-controller="department" asp-action="update" asp-route-id="@Model.Id"><i class="fa-solid fa-pen"></i>Update</a>
+        <a class="btn btn-light" asp-controller="department" asp-action="index"><i class="fa-solid fa-arrow-left-long px-2"></i>Back</a>
+    </div>
+</div>
+

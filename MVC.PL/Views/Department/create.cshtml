@@ -1,0 +1,30 @@
+﻿@model Department
+@{
+    ViewData["Title"] = "craete";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="container bg-light">
+    <h1 class="alert alert-primary text-capitalize text-center">create new department</h1>
+    <form asp-action="create">
+        <div class="mb-3">
+            <label asp-for="Code" class="form-label"></label>
+            <input asp-for="Code"  class="form-control" >
+            <span  asp-validation-for="Code"  class="text-danger"></span>
+        </div>
+        <div class="mb-3">
+            <label asp-for="Name" class="form-label"></label>
+            <input asp-for="Name" class="form-control">
+            <span asp-validation-for="Name" class="text-danger"></span>
+        </div>
+        <div class="mb-3">
+            <label asp-for="DateOfCreation" class="form-label"></label>
+            <input asp-for="DateOfCreation" class="form-control">
+            
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+</div>
+
+
+

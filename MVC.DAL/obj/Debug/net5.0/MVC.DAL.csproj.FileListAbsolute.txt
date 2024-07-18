@@ -1,0 +1,12 @@
+D:\engineering terms\front-end-engineer\Route\C41 RouteBackend\08 ASP.NET Core MVC\MVCProject\MVCProject\MVC.DAL\bin\Debug\net5.0\MVC.DAL.deps.json
+D:\engineering terms\front-end-engineer\Route\C41 RouteBackend\08 ASP.NET Core MVC\MVCProject\MVCProject\MVC.DAL\bin\Debug\net5.0\MVC.DAL.dll
+D:\engineering terms\front-end-engineer\Route\C41 RouteBackend\08 ASP.NET Core MVC\MVCProject\MVCProject\MVC.DAL\bin\Debug\net5.0\MVC.DAL.pdb
+D:\engineering terms\front-end-engineer\Route\C41 RouteBackend\08 ASP.NET Core MVC\MVCProject\MVCProject\MVC.DAL\obj\Debug\net5.0\MVC.DAL.GeneratedMSBuildEditorConfig.editorconfig
+D:\engineering terms\front-end-engineer\Route\C41 RouteBackend\08 ASP.NET Core MVC\MVCProject\MVCProject\MVC.DAL\obj\Debug\net5.0\MVC.DAL.AssemblyInfoInputs.cache
+D:\engineering terms\front-end-engineer\Route\C41 RouteBackend\08 ASP.NET Core MVC\MVCProject\MVCProject\MVC.DAL\obj\Debug\net5.0\MVC.DAL.AssemblyInfo.cs
+D:\engineering terms\front-end-engineer\Route\C41 RouteBackend\08 ASP.NET Core MVC\MVCProject\MVCProject\MVC.DAL\obj\Debug\net5.0\MVC.DAL.csproj.CoreCompileInputs.cache
+D:\engineering terms\front-end-engineer\Route\C41 RouteBackend\08 ASP.NET Core MVC\MVCProject\MVCProject\MVC.DAL\obj\Debug\net5.0\MVC.DAL.dll
+D:\engineering terms\front-end-engineer\Route\C41 RouteBackend\08 ASP.NET Core MVC\MVCProject\MVCProject\MVC.DAL\obj\Debug\net5.0\refint\MVC.DAL.dll
+D:\engineering terms\front-end-engineer\Route\C41 RouteBackend\08 ASP.NET Core MVC\MVCProject\MVCProject\MVC.DAL\obj\Debug\net5.0\MVC.DAL.pdb
+D:\engineering terms\front-end-engineer\Route\C41 RouteBackend\08 ASP.NET Core MVC\MVCProject\MVCProject\MVC.DAL\obj\Debug\net5.0\ref\MVC.DAL.dll
+D:\engineering terms\front-end-engineer\Route\C41 RouteBackend\08 ASP.NET Core MVC\MVCProject\MVCProject\MVC.DAL\obj\Debug\net5.0\MVC.DAL.csproj.AssemblyReference.cache
