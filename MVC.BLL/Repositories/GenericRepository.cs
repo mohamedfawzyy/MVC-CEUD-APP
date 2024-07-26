@@ -32,12 +32,18 @@ namespace MVC.BLL.Repositories
 
         public T get(int id)
         {
+            if (typeof(T) == typeof(Employee)) {
+                return  this.mvcDbContext.Set<Employee>().Include(E=>E.Department).Where(E=>E.Id == id).FirstOrDefault() as T;
+            }
           T entity=this.mvcDbContext.Set<T>().Find(id);
             return entity;
         }
 
         public IEnumerable<T> getAll()
         {
+            if (typeof(T) == typeof(Employee)) {
+                return (IEnumerable<T>) this.mvcDbContext.Set<Employee>().Include(E=>E.Department).AsNoTracking();
+            }
           return  this.mvcDbContext.Set<T>().AsNoTracking();
         }
 

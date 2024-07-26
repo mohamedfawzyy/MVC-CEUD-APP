@@ -97,7 +97,6 @@ D:\engineering terms\front-end-engineer\Route\C41 RouteBackend\08 ASP.NET Core M
 D:\engineering terms\front-end-engineer\Route\C41 RouteBackend\08 ASP.NET Core MVC\MVCProject\MVCProject\MVC.PL\bin\Debug\net5.0\refs\Microsoft.Extensions.Configuration.KeyPerFile.dll
 D:\engineering terms\front-end-engineer\Route\C41 RouteBackend\08 ASP.NET Core MVC\MVCProject\MVCProject\MVC.PL\bin\Debug\net5.0\refs\Microsoft.Extensions.Configuration.UserSecrets.dll
 D:\engineering terms\front-end-engineer\Route\C41 RouteBackend\08 ASP.NET Core MVC\MVCProject\MVCProject\MVC.PL\bin\Debug\net5.0\refs\Microsoft.Extensions.Configuration.Xml.dll
-D:\engineering terms\front-end-engineer\Route\C41 RouteBackend\08 ASP.NET Core MVC\MVCProject\MVCProject\MVC.PL\bin\Debug\net5.0\refs\Microsoft.Extensions.DependencyInjection.Abstractions.dll
 D:\engineering terms\front-end-engineer\Route\C41 RouteBackend\08 ASP.NET Core MVC\MVCProject\MVCProject\MVC.PL\bin\Debug\net5.0\refs\Microsoft.Extensions.Diagnostics.HealthChecks.Abstractions.dll
 D:\engineering terms\front-end-engineer\Route\C41 RouteBackend\08 ASP.NET Core MVC\MVCProject\MVCProject\MVC.PL\bin\Debug\net5.0\refs\Microsoft.Extensions.Diagnostics.HealthChecks.dll
 D:\engineering terms\front-end-engineer\Route\C41 RouteBackend\08 ASP.NET Core MVC\MVCProject\MVCProject\MVC.PL\bin\Debug\net5.0\refs\Microsoft.Extensions.FileProviders.Abstractions.dll
@@ -123,8 +122,6 @@ D:\engineering terms\front-end-engineer\Route\C41 RouteBackend\08 ASP.NET Core M
 D:\engineering terms\front-end-engineer\Route\C41 RouteBackend\08 ASP.NET Core MVC\MVCProject\MVCProject\MVC.PL\bin\Debug\net5.0\refs\Microsoft.Extensions.ObjectPool.dll
 D:\engineering terms\front-end-engineer\Route\C41 RouteBackend\08 ASP.NET Core MVC\MVCProject\MVCProject\MVC.PL\bin\Debug\net5.0\refs\Microsoft.Extensions.Options.ConfigurationExtensions.dll
 D:\engineering terms\front-end-engineer\Route\C41 RouteBackend\08 ASP.NET Core MVC\MVCProject\MVCProject\MVC.PL\bin\Debug\net5.0\refs\Microsoft.Extensions.Options.DataAnnotations.dll
-D:\engineering terms\front-end-engineer\Route\C41 RouteBackend\08 ASP.NET Core MVC\MVCProject\MVCProject\MVC.PL\bin\Debug\net5.0\refs\Microsoft.Extensions.Options.dll
-D:\engineering terms\front-end-engineer\Route\C41 RouteBackend\08 ASP.NET Core MVC\MVCProject\MVCProject\MVC.PL\bin\Debug\net5.0\refs\Microsoft.Extensions.Primitives.dll
 D:\engineering terms\front-end-engineer\Route\C41 RouteBackend\08 ASP.NET Core MVC\MVCProject\MVCProject\MVC.PL\bin\Debug\net5.0\refs\Microsoft.Extensions.WebEncoders.dll
 D:\engineering terms\front-end-engineer\Route\C41 RouteBackend\08 ASP.NET Core MVC\MVCProject\MVCProject\MVC.PL\bin\Debug\net5.0\refs\Microsoft.JSInterop.dll
 D:\engineering terms\front-end-engineer\Route\C41 RouteBackend\08 ASP.NET Core MVC\MVCProject\MVCProject\MVC.PL\bin\Debug\net5.0\refs\Microsoft.Net.Http.Headers.dll
@@ -223,7 +220,6 @@ D:\engineering terms\front-end-engineer\Route\C41 RouteBackend\08 ASP.NET Core M
 D:\engineering terms\front-end-engineer\Route\C41 RouteBackend\08 ASP.NET Core MVC\MVCProject\MVCProject\MVC.PL\bin\Debug\net5.0\refs\System.Resources.Reader.dll
 D:\engineering terms\front-end-engineer\Route\C41 RouteBackend\08 ASP.NET Core MVC\MVCProject\MVCProject\MVC.PL\bin\Debug\net5.0\refs\System.Resources.ResourceManager.dll
 D:\engineering terms\front-end-engineer\Route\C41 RouteBackend\08 ASP.NET Core MVC\MVCProject\MVCProject\MVC.PL\bin\Debug\net5.0\refs\System.Resources.Writer.dll
-D:\engineering terms\front-end-engineer\Route\C41 RouteBackend\08 ASP.NET Core MVC\MVCProject\MVCProject\MVC.PL\bin\Debug\net5.0\refs\System.Runtime.CompilerServices.Unsafe.dll
 D:\engineering terms\front-end-engineer\Route\C41 RouteBackend\08 ASP.NET Core MVC\MVCProject\MVCProject\MVC.PL\bin\Debug\net5.0\refs\System.Runtime.CompilerServices.VisualC.dll
 D:\engineering terms\front-end-engineer\Route\C41 RouteBackend\08 ASP.NET Core MVC\MVCProject\MVCProject\MVC.PL\bin\Debug\net5.0\refs\System.Runtime.dll
 D:\engineering terms\front-end-engineer\Route\C41 RouteBackend\08 ASP.NET Core MVC\MVCProject\MVCProject\MVC.PL\bin\Debug\net5.0\refs\System.Runtime.Extensions.dll
@@ -448,3 +444,15 @@ D:\engineering terms\front-end-engineer\Route\C41 RouteBackend\08 ASP.NET Core M
 D:\engineering terms\front-end-engineer\Route\C41 RouteBackend\08 ASP.NET Core MVC\MVCProject\MVCProject\MVC.PL\obj\Debug\net5.0\Razor\Views\Employee\view.cshtml.g.cs
 D:\engineering terms\front-end-engineer\Route\C41 RouteBackend\08 ASP.NET Core MVC\MVCProject\MVCProject\MVC.PL\obj\Debug\net5.0\Razor\Views\Employee\Update.cshtml.g.cs
 D:\engineering terms\front-end-engineer\Route\C41 RouteBackend\08 ASP.NET Core MVC\MVCProject\MVCProject\MVC.PL\obj\Debug\net5.0\Razor\Views\Employee\Delete.cshtml.g.cs
+D:\engineering terms\front-end-engineer\Route\C41 RouteBackend\08 ASP.NET Core MVC\MVCProject\MVCProject\MVC.PL\obj\Debug\net5.0\MVC.PL.sourcelink.json
+D:\engineering terms\front-end-engineer\Route\C41 RouteBackend\08 ASP.NET Core MVC\MVCProject\MVCProject\MVC.PL\obj\Debug\net5.0\Razor\Views\Shared\_ButtonsPartial.cshtml.g.cs
+D:\engineering terms\front-end-engineer\Route\C41 RouteBackend\08 ASP.NET Core MVC\MVCProject\MVCProject\MVC.PL\obj\Debug\net5.0\Razor\Views\Department\PartialViews\CreateUpdateDeptPartial.cshtml.g.cs
+D:\engineering terms\front-end-engineer\Route\C41 RouteBackend\08 ASP.NET Core MVC\MVCProject\MVCProject\MVC.PL\obj\Debug\net5.0\Razor\Views\Department\PartialViews\ViewDeleteDeptPartial.cshtml.g.cs
+D:\engineering terms\front-end-engineer\Route\C41 RouteBackend\08 ASP.NET Core MVC\MVCProject\MVCProject\MVC.PL\obj\Debug\net5.0\Razor\Views\Employee\PartialViews\CreateUpdateEmpPartial.cshtml.g.cs
+D:\engineering terms\front-end-engineer\Route\C41 RouteBackend\08 ASP.NET Core MVC\MVCProject\MVCProject\MVC.PL\obj\Debug\net5.0\Razor\Views\Employee\PartialViews\ViewDeleteEmpPartial.cshtml.g.cs
+D:\engineering terms\front-end-engineer\Route\C41 RouteBackend\08 ASP.NET Core MVC\MVCProject\MVCProject\MVC.PL\bin\Debug\net5.0\AutoMapper.dll
+D:\engineering terms\front-end-engineer\Route\C41 RouteBackend\08 ASP.NET Core MVC\MVCProject\MVCProject\MVC.PL\bin\Debug\net5.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+D:\engineering terms\front-end-engineer\Route\C41 RouteBackend\08 ASP.NET Core MVC\MVCProject\MVCProject\MVC.PL\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\engineering terms\front-end-engineer\Route\C41 RouteBackend\08 ASP.NET Core MVC\MVCProject\MVCProject\MVC.PL\bin\Debug\net5.0\Microsoft.Extensions.Options.dll
+D:\engineering terms\front-end-engineer\Route\C41 RouteBackend\08 ASP.NET Core MVC\MVCProject\MVCProject\MVC.PL\bin\Debug\net5.0\Microsoft.Extensions.Primitives.dll
+D:\engineering terms\front-end-engineer\Route\C41 RouteBackend\08 ASP.NET Core MVC\MVCProject\MVCProject\MVC.PL\bin\Debug\net5.0\System.Runtime.CompilerServices.Unsafe.dll

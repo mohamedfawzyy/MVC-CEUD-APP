@@ -1,0 +1,51 @@
+﻿@model EmployeeViewModel;
+
+<div class="mb-3">
+    <label asp-for="Name" class="form-label"></label>
+    <input asp-for="Name" class="form-control" readonly>
+</div>
+<div class="mb-3">
+    <label asp-for="Email" class="form-label"></label>
+    <input asp-for="Email" class="form-control" readonly>
+</div>
+<div class="mb-3">
+    <label asp-for="Age" class="form-label"></label>
+    <input asp-for="Age" class="form-control" readonly>
+</div>
+<div class="mb-3">
+    <label>Your Gender:</label>
+    <div class="form-check">
+        @if (Model.Gender.ToString().ToLower() == "male")
+        {
+            <input class="form-check-input" type="radio" id="Male" name="Gender" value="1" checked readonly>
+            <label class="form-check-label" for="Male">Male</label>
+        }
+        else
+        {
+            <input class="form-check-input" type="radio" id="Female" name="Gender" value="2" checked readonly>
+            <label class="form-check-label" for="Female">Female</label>
+        }
+    </div>
+</div>
+<div class="mb-3">
+    <label asp-for="Address" class="form-label"></label>
+    <input asp-for="Address" class="form-control" readonly>
+
+</div>
+<div class="mb-3">
+    <label asp-for="Salary" class="form-label"></label>
+    <input asp-for="Salary" class="form-control" readonly>
+</div>
+<div class="mb-3">
+    <label asp-for="PhoneNumber" class="form-label"></label>
+    <input asp-for="PhoneNumber" class="form-control" readonly>
+
+</div>
+<div class="mb-3">
+    <label asp-for="HiringDate" class="form-label"></label>
+    <input asp-for="HiringDate" class="form-control" readonly>
+</div>
+<div class="mb-3">
+    <label asp-for="Department" class="form-label"></label>
+    <input asp-for="Department.Name" class="form-control" readonly>
+</div>

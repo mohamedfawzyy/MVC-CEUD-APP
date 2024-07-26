@@ -1,4 +1,4 @@
-﻿@model Employee;
+﻿@model EmployeeViewModel;
 @{
     ViewData["Title"] = "Create";
     Layout = "~/Views/Shared/_Layout.cshtml";
@@ -6,21 +6,7 @@
 <div class="bg-light w-75 mx-auto my-4 p-3">
     <h1 class="alert alert-warning text-center">Create New Employee</h1>
     <form asp-action="Create">
-        <div class="mb-3">
-            <label asp-for="Name" class="form-label"></label>
-            <input asp-for="Name" class="form-control">
-            <span asp-validation-for="Name" class="text-danger"></span>
-        </div>
-        <div class="mb-3">
-            <label asp-for="Email" class="form-label"></label>
-            <input asp-for="Email" class="form-control">
-            <span asp-validation-for="Email" class="text-danger"></span>
-        </div>
-        <div class="mb-3">
-            <label asp-for="Age" class="form-label"></label>
-            <input asp-for="Age" class="form-control">
-            <span asp-validation-for="Age" class="text-danger"></span>
-        </div>
+        <partial name="PartialViews/CreateUpdateEmpPartial" />
         <div class="mb-3">
             <label>Your Gender:</label>
             <div class="form-check">
@@ -32,31 +18,10 @@
                 <label class="form-check-label" for="Female">Female</label>
             </div>
         </div>
-        <div class="mb-3">
-            <label asp-for="Address" class="form-label"></label>
-            <input asp-for="Address" class="form-control">
-            <span asp-validation-for="Address" class="text-danger"></span>
-        </div>
-        <div class="mb-3">
-            <label asp-for="Salary" class="form-label"></label>
-            <input asp-for="Salary" class="form-control">
-        </div>
-        <div class="mb-3">
-            <label asp-for="PhoneNumber" class="form-label"></label>
-            <input asp-for="PhoneNumber" class="form-control">
-            <span asp-validation-for="PhoneNumber" class="text-danger"></span>
-        </div>
-        <div class="mb-3">
-            <label asp-for="HiringDate" class="form-label"></label>
-            <input asp-for="HiringDate" class="form-control">
-        </div>
-        <div class="mb-3 form-check">
-            <input class="form-check-input" asp-for="IsActive">
-            <label class="form-check-label" asp-for="IsActive"></label>
-        </div>
-
         <button type="submit" class="btn btn-primary">Submit</button>
     </form>
 </div>
 
-
+@section ValidationInputs{
+    <partial name="_ValidationScriptsPartial" />
+}

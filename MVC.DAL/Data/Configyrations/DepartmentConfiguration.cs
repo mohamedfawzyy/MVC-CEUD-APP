@@ -18,6 +18,10 @@ namespace MVC.DAL.Data.Configyrations
            builder.Property(x => x.Id).UseIdentityColumn(10, 10);
            builder.Property(x=>x.Code).HasColumnType("varchar").HasMaxLength(10).IsRequired();
            builder.Property(x => x.Name).HasColumnType("varchar").HasMaxLength(50).IsRequired(); 
+            builder.HasMany(d => d.Employees)
+                .WithOne(e=>e.Department)
+                .HasForeignKey(e=>e.DepartmentId)
+                .OnDelete(DeleteBehavior.Cascade);
         }
     }
 }

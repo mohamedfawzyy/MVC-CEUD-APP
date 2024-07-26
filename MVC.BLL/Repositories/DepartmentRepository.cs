@@ -18,6 +18,6 @@ namespace MVC.BLL.Repositories
         {
             this.mvcDbContext = mvcDbContext;
         }
-      
+       
     }
 }

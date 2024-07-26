@@ -1,3 +1,4 @@
+using AutoMapper;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -8,6 +9,8 @@ using Microsoft.Extensions.Hosting;
 using MVC.BLL.Interfaces;
 using MVC.BLL.Repositories;
 using MVC.DAL.Data;
+using MVC.PL.Extentisions;
+using MVC.PL.Helpers;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -30,11 +33,8 @@ namespace MVC.PL
             services.AddControllersWithViews(); //allow services for mvc project
             //allow depenncy injection for mvcdbcontext and optiondbcontext
             services.AddDbContext<MvcDbContext>(options => options.UseSqlServer(this.Configuration.GetConnectionString("defaultConnection")));
-            //allow dependancy injection for IDepartment Repo
-            services.AddScoped<IDepartmentRepository,DepartmentRepository>();
-            //allow dependancy injection for Employee Repo
-            services.AddScoped<IEmployeeRepository, EmployeeRepository>();
-        
+
+            services.ApplyAppServices();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

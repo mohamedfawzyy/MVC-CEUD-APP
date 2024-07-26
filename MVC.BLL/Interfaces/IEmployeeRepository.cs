@@ -9,6 +9,6 @@ namespace MVC.BLL.Interfaces
 {
     public interface IEmployeeRepository :IGenericRepository<Employee>
     {
-  
+            public IQueryable<Employee> GetByName(string SearchName);
     }
 }

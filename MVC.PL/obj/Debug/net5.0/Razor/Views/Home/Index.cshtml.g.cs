@@ -33,8 +33,15 @@ using MVC.DAL.Models;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 4 "D:\engineering terms\front-end-engineer\Route\C41 RouteBackend\08 ASP.NET Core MVC\MVCProject\MVCProject\MVC.PL\Views\_ViewImports.cshtml"
+using MVC.BLL.Interfaces;
+
+#line default
+#line hidden
+#nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA256", @"2999aea4fd9585148590d2af132f38ffc044fe9b3869b38d4a2bbf6259d065ea", @"/Views/Home/Index.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA256", @"6bea2ed79c9ebd9be182eb66676b235e9c74805aac387013063ae79e83f12fac", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA256", @"2a9a4a3dd4630ebd5cb739374e4f91ef1a648609488d8836611119aae8d608c3", @"/Views/_ViewImports.cshtml")]
     #nullable restore
     public class Views_Home_Index : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<dynamic>
     #nullable disable

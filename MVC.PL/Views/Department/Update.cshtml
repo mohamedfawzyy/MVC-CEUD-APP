@@ -1,4 +1,4 @@
-﻿@model Department;
+﻿@model DepartmentViewModel;
 @{
     ViewData["Title"] = "Update";
     Layout = "~/Views/Shared/_Layout.cshtml";
@@ -8,24 +8,12 @@
     <h1 class="alert alert-warning text-center">Update Department @Model.Name </h1>
 
     <form asp-action="Update">
-        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-        <div class="mb-3">
-            <label asp-for="Code" class="form-label"></label>
-            <input asp-for="Code" class="form-control">
-            <span asp-validation-for="Code" class="text-danger"></span>
-        </div>
-        <div class="mb-3">
-            <label asp-for="Name" class="form-label"></label>
-            <input asp-for="Name" class="form-control">
-            <span asp-validation-for="Name" class="text-danger"></span>
-        </div>
-        <div class="mb-3">
-            <label asp-for="DateOfCreation" class="form-label"></label>
-            <input asp-for="DateOfCreation" class="form-control">
-
-        </div>
+        <partial name="PartialViews/CreateUpdateDeptPartial"/>
         <button type="submit" class="btn btn-warning">Save Upates</button>
         <a class="btn btn-light" asp-controller="Department" asp-action="Index">Back</a>
     </form>
 </div>
+@section ValidationInputs {
+    <partial name="_ValidationScriptsPartial" />
+}
 

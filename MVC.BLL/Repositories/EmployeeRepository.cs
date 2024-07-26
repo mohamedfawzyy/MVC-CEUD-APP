@@ -18,5 +18,14 @@ namespace MVC.BLL.Repositories
             this.mvcDbContext=mvcDbContext;
         }
 
+        public IQueryable<Employee> GetByName(string SearchName)
+        {
+          return  this.mvcDbContext.Employees.Include(e=>e.Department).Where(e => e.Name.ToLower().Contains(SearchName));
+        }
+        /* solution of overriding
+public new IEnumerable<Employee> getAll()
+{
+   return this.mvcDbContext.Set<Employee>().Include(E=>E.Department).AsNoTracking();
+}*/
     }
 }

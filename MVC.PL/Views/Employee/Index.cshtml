@@ -1,10 +1,14 @@
-﻿@model IEnumerable<Employee>;
+﻿@model IEnumerable<EmployeeViewModel>;
 @{
     ViewData["Title"] = "Index";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 <div class="d-flex justify-content-between align-items-center alert alert-success">
-    <h1 class="">Employees Management System</h1>
+    <h1 class="h3">Employees Management System</h1>
+    <form asp-for="Index" class="d-flex ">
+        <input type="search" name="SerachName" placeholder="Search Name" class="form-control">
+        <button type="submit" class="btn btn-success mx-2">Search</button>
+    </form>
     <a asp-controller="Employee" asp-action="Create" class="btn btn-primary">Add New Employee</a>
 </div>
 
@@ -17,6 +21,7 @@
                 <th>@Html.DisplayNameFor(E => E.Email)</th>
                 <th>@Html.DisplayNameFor(E => E.Gender)</th>
                 <th>@Html.DisplayNameFor(E => E.Salary)</th>
+                <th>@Html.DisplayNameFor(E=>E.Department)</th>
                 <th>@Html.DisplayNameFor(E => E.HiringDate)</th>
                 <th>@Html.DisplayNameFor(E => E.IsActive)</th>
                 <th>Detailes</th>
@@ -32,39 +37,15 @@
                    <td>@Html.DisplayFor(M=>employee.Email)</td>
                    <td>@employee.Gender</td>
                    <td>@Html.DisplayFor(M => employee.Salary)</td>
+                   <td>@employee.Department?.Name</td>
                    <td>@employee.HiringDate</td>
                    <td>@Html.DisplayFor(M=>employee.IsActive)</td>
-                    <td><a class="btn btn-info" asp-controller="Employee" asp-action="view" asp-route-id="@employee.Id"><i class="fa-regular fa-eye"></i>View</a></td>
-                    <td><a class="btn btn-warning" asp-controller="Employee" asp-action="Update" asp-route-id="@employee.Id"><i class="fa-solid fa-pen"></i>Update</a></td>
-                    <td>
-                        <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#@employee.Name.Split(" ")[0]@employee.Id"><i class="fa-solid fa-trash"></i> Delete</button>
-                    </td>
-                    <div class="modal fade" id="@employee.Name.Split(" ")[0]@employee.Id" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-                        <div class="modal-dialog">
-                            <div class="modal-content">
-                                <div class="modal-header">
-                                    <h1 class="h4 modal-title fs-5" id="staticBackdropLabel">Delete Employee @employee.Name</h1>
-                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"><i class="fa-solid fa-xmark"></i></button>
-                                </div>
-                                <div class="modal-body">
-                                    <form asp-action="Delete" asp-route-id="@employee.Id">
-                                        <p>Are you sure to delete this Department</p>
-                                        <div class="modal-footer">
-                                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                                            <button type="submit" class="btn btn-danger">Delete</button>
-                                        </div>
-                                    </form>
-                                </div>
-
-                            </div>
-                        </div>
-                    </div>
+                    <partial name="_ButtonsPartial" model="employee"/>
                 </tr>
             }
         </tbody>
 
     </table>
-
 }
 else
 {
@@ -72,4 +53,12 @@ else
         <p>sorry there is no employee to show</p>
     </div>    
 }
+@section ToasrtShow {
+    <script>
+        if ('@string.IsNullOrEmpty(TempData["Message"] as string)' == "False") {
+            toastr.info('@TempData["Message"]');
+        }
+    </script>
+}
+
 

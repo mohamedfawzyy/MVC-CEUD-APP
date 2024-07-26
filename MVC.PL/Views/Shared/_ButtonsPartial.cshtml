@@ -1,0 +1,27 @@
+﻿@model BaseViewModel;
+
+<td><a class="btn btn-info"  asp-action="view" asp-route-id="@Model.Id"><i class="fa-regular fa-eye"></i>View</a></td>
+<td><a class="btn btn-warning" asp-action="Update" asp-route-id="@Model.Id"><i class="fa-solid fa-pen"></i>Update</a></td>
+<td>
+    <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#@Model.Name.Split(" ")[0]@Model.Id"><i class="fa-solid fa-trash"></i> Delete</button>
+</td>
+<div class="modal fade" id="@Model.Name.Split(" ")[0]@Model.Id" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h1 class="h4 modal-title fs-5" id="staticBackdropLabel">Delete Employee @Model.Name</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"><i class="fa-solid fa-xmark"></i></button>
+            </div>
+            <div class="modal-body">
+                <form asp-action="Delete" asp-route-id="@Model.Id">
+                    <p>Are you sure to delete this Department</p>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        <button type="submit" class="btn btn-danger">Delete</button>
+                    </div>
+                </form>
+            </div>
+
+        </div>
+    </div>
+</div>
