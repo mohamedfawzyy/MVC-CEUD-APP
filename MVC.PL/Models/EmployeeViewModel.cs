@@ -2,6 +2,7 @@
 using System.ComponentModel.DataAnnotations.Schema;
 using System.ComponentModel.DataAnnotations;
 using System;
+using Microsoft.AspNetCore.Http;
 
 namespace MVC.PL.Models
 {
@@ -32,6 +33,10 @@ namespace MVC.PL.Models
         public Gender Gender { get; set; }
         [Display(Name = "Employee Type")]
         public EmpType EmpType { get; set; }
+
+        [Display(Name ="Employee Iamge")]
+        public IFormFile EmployeeImg { get; set; }
+        public string ImageName { get; set; }
 
         [ForeignKey(nameof(Employee.Department))]
         public int? DepartmentId { get; set; }

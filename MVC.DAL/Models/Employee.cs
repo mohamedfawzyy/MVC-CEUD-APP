@@ -42,6 +42,8 @@ namespace MVC.DAL.Models
         public DateTime CreationDate { get; set; } = DateTime.Now;
 
         public bool IsDeleted { get; set; } = false;
+
+        public string ImageName { get; set; }
         public Gender Gender { get; set; }
       
         public EmpType EmpType { get; set; }

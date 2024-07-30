@@ -5,7 +5,7 @@
 }
 <div class="bg-light w-75 mx-auto my-4 p-3">
     <h1 class="alert alert-warning text-center">Create New Employee</h1>
-    <form asp-action="Create">
+    <form asp-action="Create" enctype="multipart/form-data">
         <partial name="PartialViews/CreateUpdateEmpPartial" />
         <div class="mb-3">
             <label>Your Gender:</label>

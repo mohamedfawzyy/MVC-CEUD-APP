@@ -18,39 +18,39 @@ namespace MVC.BLL.Repositories
         { 
             this.mvcDbContext = mvcDbContext;
         }
-        public int Add(T entity)
+        public void Add(T entity)
         {
            this.mvcDbContext.Set<T>().Add(entity);
-            return this.mvcDbContext.SaveChanges();
+           
         }
 
-        public int Delete(T entity)
+        public void Delete(T entity)
         {
             this.mvcDbContext.Set<T>().Remove(entity);  
-            return this.mvcDbContext.SaveChanges(); 
+          
         }
 
-        public T get(int id)
+        public async Task<T> getAsync(int id)
         {
             if (typeof(T) == typeof(Employee)) {
-                return  this.mvcDbContext.Set<Employee>().Include(E=>E.Department).Where(E=>E.Id == id).FirstOrDefault() as T;
+                return await this.mvcDbContext.Set<Employee>().Include(E=>E.Department).Where(E=>E.Id == id).FirstOrDefaultAsync() as T;
             }
-          T entity=this.mvcDbContext.Set<T>().Find(id);
+          T entity=await this.mvcDbContext.Set<T>().FindAsync(id);
             return entity;
         }
 
-        public IEnumerable<T> getAll()
+        public async Task<IEnumerable<T>> getAllAsync()
         {
             if (typeof(T) == typeof(Employee)) {
-                return (IEnumerable<T>) this.mvcDbContext.Set<Employee>().Include(E=>E.Department).AsNoTracking();
+                return  (IEnumerable<T>) await this.mvcDbContext.Set<Employee>().Include(E=>E.Department).AsNoTracking().ToListAsync();
             }
-          return  this.mvcDbContext.Set<T>().AsNoTracking();
+          return await this.mvcDbContext.Set<T>().AsNoTracking().ToListAsync();
         }
 
-        public int Update(T entity)
+        public void Update(T entity)
         {
             this.mvcDbContext.Set<T>().Update(entity);
-            return this.mvcDbContext.SaveChanges();
+           
         }
     }
 }

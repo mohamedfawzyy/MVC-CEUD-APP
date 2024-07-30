@@ -2,7 +2,7 @@
 @model EmployeeViewModel;
 @inject IUnitOfWork UnitOfWork;
 @{
-    var departments = new SelectList(UnitOfWork.GetRepository<Department>().getAll(), nameof(Department.Id), nameof(Department.Name));
+    var departments = new SelectList(await UnitOfWork.GetRepository<Department>().getAllAsync(), nameof(Department.Id), nameof(Department.Name));
 }
 <div class="mb-3">
     <label asp-for="Name" class="form-label"></label>
@@ -47,4 +47,8 @@
     <select asp-for="DepartmentId" class="form-control" asp-items="@departments">
         <option value="@null">------Select Department-------</option>
     </select>
+</div>
+<div class="mb-3">
+    <label asp-for="EmployeeImg" class="form-label"></label>
+    <input class="form-control" asp-for="EmployeeImg">
 </div>

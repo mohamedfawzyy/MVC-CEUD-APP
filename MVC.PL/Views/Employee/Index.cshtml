@@ -17,6 +17,7 @@
     <table class="table table-striped">
         <thead>
             <tr>
+                <th>Image</th>
                 <th>@Html.DisplayNameFor(E=>E.Name)</th>
                 <th>@Html.DisplayNameFor(E => E.Email)</th>
                 <th>@Html.DisplayNameFor(E => E.Gender)</th>
@@ -33,7 +34,8 @@
             @foreach (var employee in Model)
             {
                 <tr>
-                   <td>@employee.Name</td>
+                    <td><img src="~/files/images/@employee.ImageName" class="w-100 rounded-circle"></td>
+                    <td>@employee.Name</td>
                    <td>@Html.DisplayFor(M=>employee.Email)</td>
                    <td>@employee.Gender</td>
                    <td>@Html.DisplayFor(M => employee.Salary)</td>

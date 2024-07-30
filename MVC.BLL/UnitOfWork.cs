@@ -24,14 +24,14 @@ namespace MVC.BLL
           
            
         }
-        public int Complete()
+        public async  Task<int> CompleteAsync()
         {
-           return  this.mvcDbContext.SaveChanges();
+           return await  this.mvcDbContext.SaveChangesAsync();
         }
 
-        public void Dispose()
+        public async ValueTask DisposeAsync()
         {
-           this.mvcDbContext.Dispose();
+          await  this.mvcDbContext.DisposeAsync();
         }
 
         public IGenericRepository<T> GetRepository<T>() where T : BaseModel
