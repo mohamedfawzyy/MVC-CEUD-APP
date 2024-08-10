@@ -10,6 +10,11 @@ namespace MVC.PL.Helpers
 
             CreateMap<Employee, EmployeeViewModel>().ReverseMap();
             CreateMap<Department, DepartmentViewModel>().ReverseMap();
+            CreateMap<ApplicationUser, UserViewModel>().
+                ForMember(d=>d.FName,o=>o.MapFrom(s=>s.FirstName))
+                .ForMember(d=>d.LName,o=>o.MapFrom(s=>s.LastName)).ReverseMap();
+               
+                
         }
     }
 }

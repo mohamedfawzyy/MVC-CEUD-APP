@@ -1,0 +1,60 @@
+﻿@model IEnumerable<UserViewModel>
+@{
+    ViewData["Title"] = "Users";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="container mx-auto bg-light">
+    <div class="alert-info">
+        <h1 class="text-center">Users Manger</h1>
+    </div>
+    <div>
+        @if (Model.Count() > 0)
+        {
+
+            <table class="table table-striped">
+                <thead>
+                    <tr>
+                        <th>@Html.DisplayNameFor(U=>U.Id)</th>
+                        <th>@Html.DisplayNameFor(U=>U.FName)</th>
+                        <th>@Html.DisplayNameFor(U=>U.LName)</th>
+                        <th>@Html.DisplayNameFor(U=>U.Email)</th>
+                        <th>@Html.DisplayNameFor(U => U.Roles)</th>
+                        <th>@Html.DisplayNameFor(U => U.PhoneNumber)</th>
+                        <th>View</th>
+                        <th>Update</th>
+                        <th>Delete</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var user in Model)
+                    {
+                        <tr>
+                            <td>@user.Id</td>
+                            <td>@user.FName</td>
+                            <td>@user.LName</td>
+                            <td>@Html.DisplayFor(M=>user.Email)</td>
+                            <td>@string.Join(" ",user.Roles)</td>
+                            <td>@Html.DisplayFor(M=>user.PhoneNumber)</td>
+                            <td><a class="btn btn-info" asp-action="Detailes" asp-route-id="@user.Id"><i class="fa-regular fa-eye"></i>View</a></td>
+                            <td><a class="btn btn-warning" asp-action="Update" asp-route-id="@user.Id"><i class="fa-solid fa-pen"></i>Update</a></td>
+                            <td>
+                                <a  class="btn btn-danger" asp-action="Delete" asp-route-id="@user.Id" ><i class="fa-solid fa-trash"></i> Delete</a>
+                            </td>
+                        </tr>
+                        
+                    }
+                </tbody>
+            </table>
+
+        }
+        else
+        {
+            <p class="alert alert-danger">There is no Users in your APP</p>
+        }
+       
+    </div>
+
+
+</div>
+

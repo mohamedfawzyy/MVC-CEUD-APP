@@ -3,6 +3,7 @@ using MVC.BLL;
 using MVC.BLL.Interfaces;
 using MVC.BLL.Repositories;
 using MVC.PL.Helpers;
+using MVC.PL.Services.SendEmailService;
 
 namespace MVC.PL.Extentisions
 {
@@ -20,10 +21,12 @@ namespace MVC.PL.Extentisions
 
             services.AddScoped<IUnitOfWork, UnitOfWork>();
 
-
             //------------------------------------------------dependancy injection for Imapper
             //allow dependancy injection for IMapper
             services.AddAutoMapper(M => M.AddProfile(new MappingProfiles()));
+
+            //allow dependancy injection for IsenderEmail Service
+            services.AddTransient<ISenderEmail,SendEmail>();
 
         }
     }

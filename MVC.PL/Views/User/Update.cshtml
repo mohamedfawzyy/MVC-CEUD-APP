@@ -1,0 +1,28 @@
+﻿@model UserViewModel;
+@{
+    ViewData["Title"] = "Update User";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div>
+    <h1 class="alert alert-warning text-center">Update User @Model.FName</h1>
+    <form asp-action="Update">
+        <div asp-validation-summary="ModelOnly"></div>
+        <div class="mb-3">
+            <label asp-for="FName" class="form-label"></label>
+            <input asp-for="FName" class="form-control" >
+        </div>
+        <div class="mb-3">
+            <label asp-for="LName" class="form-label"></label>
+            <input asp-for="LName" class="form-control">
+        </div>
+        <div class="mb-3">
+            <label asp-for="PhoneNumber" class="form-label"></label>
+            <input asp-for="PhoneNumber" class="form-control">
+        </div>
+        <button type="submit"  class="btn btn-warning" >Update</button>
+        <a class="btn btn-secondary" asp-action="Index">Back</a>
+    </form>
+</div>
+
+

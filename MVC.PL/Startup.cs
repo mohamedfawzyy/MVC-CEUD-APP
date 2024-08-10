@@ -2,6 +2,7 @@ using AutoMapper;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
@@ -9,6 +10,7 @@ using Microsoft.Extensions.Hosting;
 using MVC.BLL.Interfaces;
 using MVC.BLL.Repositories;
 using MVC.DAL.Data;
+using MVC.DAL.Models;
 using MVC.PL.Extentisions;
 using MVC.PL.Helpers;
 using System;
@@ -35,6 +37,33 @@ namespace MVC.PL
             services.AddDbContext<MvcDbContext>(options => options.UseSqlServer(this.Configuration.GetConnectionString("defaultConnection")));
 
             services.ApplyAppServices();
+
+            services.AddIdentity<ApplicationUser, IdentityRole>()
+                .AddEntityFrameworkStores<MvcDbContext>()
+				.AddDefaultTokenProviders();
+			
+
+
+            services.ConfigureApplicationCookie(options =>
+            {
+                options.LoginPath = "/Acount/SignIn";
+                options.AccessDeniedPath = "/Home/Error";
+                options.ExpireTimeSpan = TimeSpan.FromDays(1);
+
+			});
+
+            services.AddAuthentication(options =>
+            {
+
+               
+
+            }).AddCookie("Hamo", options =>
+            {
+                options.LoginPath = "/Acount/SignIn";
+                options.AccessDeniedPath = "/Home/Error";
+                options.ExpireTimeSpan = TimeSpan.FromDays(1);
+
+            });
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -55,6 +84,7 @@ namespace MVC.PL
 
             app.UseRouting();
 
+            app.UseAuthentication();
             app.UseAuthorization();
 
             app.UseEndpoints(endpoints =>

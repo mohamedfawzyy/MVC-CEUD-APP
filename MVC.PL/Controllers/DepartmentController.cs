@@ -1,4 +1,5 @@
 ﻿using AutoMapper;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore.Metadata.Internal;
@@ -13,7 +14,8 @@ using System.Threading.Tasks;
 
 namespace MVC.PL.Controllers
 {
-    public class DepartmentController : Controller
+	[Authorize]
+	public class DepartmentController : Controller
     {
         private readonly IMapper mapper;
         private readonly IUnitOfWork unitOfWork;
