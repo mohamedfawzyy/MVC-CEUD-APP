@@ -1,0 +1,73 @@
+﻿@model IEnumerable<RoleViewModel>;
+@{
+    ViewData["Title"] = "Roles";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="alert alert-info d-flex justify-content-between">
+    <h1 class="h3">Role Mangement</h1>
+    <a class="btn btn-primary" asp-action="Create"><i class="fa-solid fa-plus"></i> Add New Role</a>
+</div>
+@if (Model.Count() > 0)
+{
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>@Html.DisplayNameFor(M=>M.Id)</th>
+                <th>@Html.DisplayNameFor(M=>M.RoleName)</th>
+                <th>View</th>
+                <th>Update</th>
+                <th>Delete</th>
+                <th>Mange Users In Roles</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var Role in Model)
+            {
+                <tr>
+                    <td>@Role.Id</td>
+                    <td>@Role.RoleName</td>
+                    <td><a class="btn btn-info" asp-action="Details" asp-route-id="@Role.Id"><i class="fa-regular fa-eye"></i>View</a></td>
+                    <td><a class="btn btn-warning" asp-action="Update" asp-route-id="@Role.Id"><i class="fa-solid fa-pen"></i>Update</a></td>
+                    <td>
+                        <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#@string.Concat("id", Role.Id)">
+                            <i class="fa-solid fa-trash"></i> Delete
+                        </button>
+                    </td>
+                    <div class="modal fade" id="@string.Concat("id",Role.Id)" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h1 class="modal-title fs-5" id="staticBackdropLabel">Delete Role @Role.RoleName</h1>
+                                    <button type="button" class="btn btn-close" data-bs-dismiss="modal" aria-label="Close"><i class="fa-solid fa-xmark"></i></button>
+                                </div>
+                                <div class="modal-body">
+                                    <form asp-action="Delete" asp-route-id="@Role.Id">
+                                        <p class="text-center">Are you sure to Delete This Role</p>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                            <button type="submit" class="btn btn-danger">Delete</button>
+                                        </div>
+                                    </form>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                
+                    <td>
+                        <a class="btn btn-outline-success" asp-action="ManageUserRoles" asp-route-RoleId="@Role.Id">Manage User Roles</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+else
+{
+    <div class="alert alert-danger">
+        <p class="text-danger text-center">Sorry there is No Roles</p>
+    </div>
+}
+
+

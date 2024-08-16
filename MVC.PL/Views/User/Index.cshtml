@@ -5,13 +5,13 @@
 }
 
 <div class="container mx-auto bg-light">
-    <div class="alert-info">
+    <div class="alert-info d-flex justify-content-between align-items-center">
         <h1 class="text-center">Users Manger</h1>
+        <input type="search" id="SearchUser" class="form-control w-50" placeholder="Search..."/>
     </div>
     <div>
         @if (Model.Count() > 0)
         {
-
             <table class="table table-striped">
                 <thead>
                     <tr>
@@ -34,13 +34,35 @@
                             <td>@user.FName</td>
                             <td>@user.LName</td>
                             <td>@Html.DisplayFor(M=>user.Email)</td>
-                            <td>@string.Join(" ",user.Roles)</td>
+                            <td>@string.Join(",",user.Roles)</td>
                             <td>@Html.DisplayFor(M=>user.PhoneNumber)</td>
                             <td><a class="btn btn-info" asp-action="Detailes" asp-route-id="@user.Id"><i class="fa-regular fa-eye"></i>View</a></td>
                             <td><a class="btn btn-warning" asp-action="Update" asp-route-id="@user.Id"><i class="fa-solid fa-pen"></i>Update</a></td>
                             <td>
-                                <a  class="btn btn-danger" asp-action="Delete" asp-route-id="@user.Id" ><i class="fa-solid fa-trash"></i> Delete</a>
+                                <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#@string.Concat("id",user.Id)">
+                                    <i class="fa-solid fa-trash"></i> Delete
+                                </button>
                             </td>
+                            <div class="modal fade" id="@string.Concat("id",user.Id)" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h1 class="modal-title fs-5" id="staticBackdropLabel">Delete User @user.FName @user.LName</h1>
+                                            <button type="button" class="btn btn-close" data-bs-dismiss="modal" aria-label="Close"><i class="fa-solid fa-xmark"></i></button>
+                                        </div>
+                                        <div class="modal-body">
+                                           <form asp-action="Delete" asp-route-id="@user.Id">
+                                               <p class="text-center">Are you sure to Delete This user</p>
+                                                <div class="modal-footer">
+                                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                                    <button type="submit" class="btn btn-danger">Delete</button>
+                                                </div>
+                                           </form>
+                                        </div>
+                                        
+                                    </div>
+                                </div>
+                            </div>
                         </tr>
                         
                     }
@@ -57,4 +79,23 @@
 
 
 </div>
+<script>
+    var Table = $('table');
+    var SearchInput = $('#SearchUser');
+    SearchInput.on('keyup', function () {
+        console.log(SearchInput.val());
+        $.ajax({
+            url:'/User/Search',
+            type:'Get',
+            data: { SearchInput: SearchInput.val().toUpperCase().trim()},
+            success: function (data) {
+                console.log(data);
+                Table.html(data);
+            },
+            error: function (xhr, status, error) { 
+                console.log(error);
+            }
+        })
+    })
+</script>
 

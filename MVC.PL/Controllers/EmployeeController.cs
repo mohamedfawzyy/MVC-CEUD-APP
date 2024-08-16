@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.CodeAnalysis;
 using Microsoft.Extensions.Hosting;
 using MVC.BLL.Interfaces;
 using MVC.BLL.Repositories;
@@ -54,7 +55,8 @@ namespace MVC.PL.Controllers
         public async Task<IActionResult> Create(EmployeeViewModel employeeVM)
         {
             if (ModelState.IsValid) {
-                employeeVM.ImageName =await DocumentSetting.UploadFileAsync(employeeVM.EmployeeImg, "images");
+                if(employeeVM.EmployeeImg is not null)
+                    employeeVM.ImageName =await DocumentSetting.UploadFileAsync(employeeVM.EmployeeImg, "images");
                 var employee = this.mapper.Map<EmployeeViewModel, Employee>(employeeVM);
                 this.unitOfWork.GetRepository<Employee>().Add(employee);
                 var Result=await this.unitOfWork.CompleteAsync();
@@ -76,10 +78,16 @@ namespace MVC.PL.Controllers
             if (!id.HasValue)
                 return BadRequest();
             var Result=await this.unitOfWork.GetRepository<Employee>().getAsync(id.Value);
+            if (Result is null)
+                return NotFound();
             var ResultVM = this.mapper.Map<Employee, EmployeeViewModel>(Result);
-           
-                if(Result is null)
-                return NotFound();  
+            //if (!string.IsNullOrEmpty(ResultVM.ImageName)) {
+            //    string path = Path.Combine("wwwroot\\files\\images", ResultVM.ImageName);
+            //    using (var stream = System.IO.File.OpenRead(path)) {
+            //        ResultVM.EmployeeImg = new FormFile(stream, 0, stream.Length, null, Path.GetFileName(stream.Name));
+            //    }
+            //}
+                
             return View(ViewName, ResultVM);    
         
         }
@@ -98,6 +106,12 @@ namespace MVC.PL.Controllers
             }
             try
             {
+                if (employeeVM.EmployeeImg is not null)
+                {
+                    DocumentSetting.DeleteFile("images", employeeVM.ImageName);
+                    employeeVM.ImageName = await DocumentSetting.UploadFileAsync(employeeVM.EmployeeImg, "images");
+
+                }
                 var employee = this.mapper.Map<EmployeeViewModel, Employee>(employeeVM);
                 this.unitOfWork.GetRepository<Employee>().Update(employee);
                 var Result =await this.unitOfWork.CompleteAsync();

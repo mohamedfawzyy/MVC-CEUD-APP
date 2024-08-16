@@ -7,7 +7,7 @@ namespace MVC.PL.Helpers
     public static class DocumentSetting
     {
         public static async Task<string> UploadFileAsync(IFormFile file, string FolderName) {
-
+     
             string FolderPath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot\\files", FolderName);
             
             if (!Directory.Exists(FolderPath)) {

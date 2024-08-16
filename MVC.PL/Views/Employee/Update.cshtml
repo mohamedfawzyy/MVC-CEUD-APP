@@ -6,8 +6,11 @@
 
 <div class="w-57 mx-auto p-4 mt-4">
     <h1 class="alert alert-warning text-center">Update Emoloyee @Model.Name</h1>
-    <form asp-action="Update">
+    <form asp-action="Update" enctype="multipart/form-data">
         <div asp-validation-summary="ModelOnly"></div>
+        <div class="mb-3 w-50 mx-auto">
+            <img src="~/files/images/@Model.ImageName" class="w-100 rounded-circle">
+        </div>
         <partial name="PartialViews/CreateUpdateEmpPartial" />
         <div class="mb-3">
             <label>Your Gender:</label>

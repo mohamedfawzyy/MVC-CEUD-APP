@@ -1,0 +1,171 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = MVC.PL
+build_property.RootNamespace = MVC.PL
+build_property.ProjectDir = D:\engineering terms\front-end-engineer\Route\C41 RouteBackend\08 ASP.NET Core MVC\MVCProject\MVCProject\MVC.PL\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = true
+build_property.MSBuildProjectDirectory = D:\engineering terms\front-end-engineer\Route\C41 RouteBackend\08 ASP.NET Core MVC\MVCProject\MVCProject\MVC.PL
+build_property._RazorSourceGeneratorDebug = 
+
+[D:/engineering terms/front-end-engineer/Route/C41 RouteBackend/08 ASP.NET Core MVC/MVCProject/MVCProject/MVC.PL/Views/Acount/CheckYourInbox.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNvdW50XENoZWNrWW91ckluYm94LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/engineering terms/front-end-engineer/Route/C41 RouteBackend/08 ASP.NET Core MVC/MVCProject/MVCProject/MVC.PL/Views/Acount/ForgetPassword.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNvdW50XEZvcmdldFBhc3N3b3JkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/engineering terms/front-end-engineer/Route/C41 RouteBackend/08 ASP.NET Core MVC/MVCProject/MVCProject/MVC.PL/Views/Acount/ResetPassword.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNvdW50XFJlc2V0UGFzc3dvcmQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/engineering terms/front-end-engineer/Route/C41 RouteBackend/08 ASP.NET Core MVC/MVCProject/MVCProject/MVC.PL/Views/Acount/SignIn.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNvdW50XFNpZ25Jbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/engineering terms/front-end-engineer/Route/C41 RouteBackend/08 ASP.NET Core MVC/MVCProject/MVCProject/MVC.PL/Views/Acount/SignUp.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNvdW50XFNpZ25VcC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/engineering terms/front-end-engineer/Route/C41 RouteBackend/08 ASP.NET Core MVC/MVCProject/MVCProject/MVC.PL/Views/Department/create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVwYXJ0bWVudFxjcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/engineering terms/front-end-engineer/Route/C41 RouteBackend/08 ASP.NET Core MVC/MVCProject/MVCProject/MVC.PL/Views/Department/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVwYXJ0bWVudFxEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/engineering terms/front-end-engineer/Route/C41 RouteBackend/08 ASP.NET Core MVC/MVCProject/MVCProject/MVC.PL/Views/Department/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVwYXJ0bWVudFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/engineering terms/front-end-engineer/Route/C41 RouteBackend/08 ASP.NET Core MVC/MVCProject/MVCProject/MVC.PL/Views/Department/PartialViews/CreateUpdateDeptPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVwYXJ0bWVudFxQYXJ0aWFsVmlld3NcQ3JlYXRlVXBkYXRlRGVwdFBhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/engineering terms/front-end-engineer/Route/C41 RouteBackend/08 ASP.NET Core MVC/MVCProject/MVCProject/MVC.PL/Views/Department/PartialViews/ViewDeleteDeptPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVwYXJ0bWVudFxQYXJ0aWFsVmlld3NcVmlld0RlbGV0ZURlcHRQYXJ0aWFsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/engineering terms/front-end-engineer/Route/C41 RouteBackend/08 ASP.NET Core MVC/MVCProject/MVCProject/MVC.PL/Views/Department/Update.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVwYXJ0bWVudFxVcGRhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/engineering terms/front-end-engineer/Route/C41 RouteBackend/08 ASP.NET Core MVC/MVCProject/MVCProject/MVC.PL/Views/Department/view.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVwYXJ0bWVudFx2aWV3LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/engineering terms/front-end-engineer/Route/C41 RouteBackend/08 ASP.NET Core MVC/MVCProject/MVCProject/MVC.PL/Views/Employee/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/engineering terms/front-end-engineer/Route/C41 RouteBackend/08 ASP.NET Core MVC/MVCProject/MVCProject/MVC.PL/Views/Employee/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/engineering terms/front-end-engineer/Route/C41 RouteBackend/08 ASP.NET Core MVC/MVCProject/MVCProject/MVC.PL/Views/Employee/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/engineering terms/front-end-engineer/Route/C41 RouteBackend/08 ASP.NET Core MVC/MVCProject/MVCProject/MVC.PL/Views/Employee/PartialViews/CreateUpdateEmpPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVcUGFydGlhbFZpZXdzXENyZWF0ZVVwZGF0ZUVtcFBhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/engineering terms/front-end-engineer/Route/C41 RouteBackend/08 ASP.NET Core MVC/MVCProject/MVCProject/MVC.PL/Views/Employee/PartialViews/ViewDeleteEmpPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVcUGFydGlhbFZpZXdzXFZpZXdEZWxldGVFbXBQYXJ0aWFsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/engineering terms/front-end-engineer/Route/C41 RouteBackend/08 ASP.NET Core MVC/MVCProject/MVCProject/MVC.PL/Views/Employee/Update.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVcVXBkYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/engineering terms/front-end-engineer/Route/C41 RouteBackend/08 ASP.NET Core MVC/MVCProject/MVCProject/MVC.PL/Views/Employee/view.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVcdmlldy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/engineering terms/front-end-engineer/Route/C41 RouteBackend/08 ASP.NET Core MVC/MVCProject/MVCProject/MVC.PL/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/engineering terms/front-end-engineer/Route/C41 RouteBackend/08 ASP.NET Core MVC/MVCProject/MVCProject/MVC.PL/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/engineering terms/front-end-engineer/Route/C41 RouteBackend/08 ASP.NET Core MVC/MVCProject/MVCProject/MVC.PL/Views/Role/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9sZVxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/engineering terms/front-end-engineer/Route/C41 RouteBackend/08 ASP.NET Core MVC/MVCProject/MVCProject/MVC.PL/Views/Role/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9sZVxEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/engineering terms/front-end-engineer/Route/C41 RouteBackend/08 ASP.NET Core MVC/MVCProject/MVCProject/MVC.PL/Views/Role/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9sZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/engineering terms/front-end-engineer/Route/C41 RouteBackend/08 ASP.NET Core MVC/MVCProject/MVCProject/MVC.PL/Views/Role/ManageUserRoles.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9sZVxNYW5hZ2VVc2VyUm9sZXMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/engineering terms/front-end-engineer/Route/C41 RouteBackend/08 ASP.NET Core MVC/MVCProject/MVCProject/MVC.PL/Views/Role/Update.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9sZVxVcGRhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/engineering terms/front-end-engineer/Route/C41 RouteBackend/08 ASP.NET Core MVC/MVCProject/MVCProject/MVC.PL/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/engineering terms/front-end-engineer/Route/C41 RouteBackend/08 ASP.NET Core MVC/MVCProject/MVCProject/MVC.PL/Views/Shared/_AuthLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9BdXRoTGF5b3V0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/engineering terms/front-end-engineer/Route/C41 RouteBackend/08 ASP.NET Core MVC/MVCProject/MVCProject/MVC.PL/Views/Shared/_ButtonsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9CdXR0b25zUGFydGlhbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/engineering terms/front-end-engineer/Route/C41 RouteBackend/08 ASP.NET Core MVC/MVCProject/MVCProject/MVC.PL/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/engineering terms/front-end-engineer/Route/C41 RouteBackend/08 ASP.NET Core MVC/MVCProject/MVCProject/MVC.PL/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/engineering terms/front-end-engineer/Route/C41 RouteBackend/08 ASP.NET Core MVC/MVCProject/MVCProject/MVC.PL/Views/User/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/engineering terms/front-end-engineer/Route/C41 RouteBackend/08 ASP.NET Core MVC/MVCProject/MVCProject/MVC.PL/Views/User/Detailes.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxEZXRhaWxlcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/engineering terms/front-end-engineer/Route/C41 RouteBackend/08 ASP.NET Core MVC/MVCProject/MVCProject/MVC.PL/Views/User/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/engineering terms/front-end-engineer/Route/C41 RouteBackend/08 ASP.NET Core MVC/MVCProject/MVCProject/MVC.PL/Views/User/Search.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxTZWFyY2guY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/engineering terms/front-end-engineer/Route/C41 RouteBackend/08 ASP.NET Core MVC/MVCProject/MVCProject/MVC.PL/Views/User/Update.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxVcGRhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/engineering terms/front-end-engineer/Route/C41 RouteBackend/08 ASP.NET Core MVC/MVCProject/MVCProject/MVC.PL/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/engineering terms/front-end-engineer/Route/C41 RouteBackend/08 ASP.NET Core MVC/MVCProject/MVCProject/MVC.PL/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 

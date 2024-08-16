@@ -1,0 +1,16 @@
+D:\engineering terms\front-end-engineer\Route\C41 RouteBackend\08 ASP.NET Core MVC\MVCProject\MVCProject\MVC.BLL\obj\Debug\net6.0\MVC.BLL.csproj.AssemblyReference.cache
+D:\engineering terms\front-end-engineer\Route\C41 RouteBackend\08 ASP.NET Core MVC\MVCProject\MVCProject\MVC.BLL\obj\Debug\net6.0\MVC.BLL.GeneratedMSBuildEditorConfig.editorconfig
+D:\engineering terms\front-end-engineer\Route\C41 RouteBackend\08 ASP.NET Core MVC\MVCProject\MVCProject\MVC.BLL\obj\Debug\net6.0\MVC.BLL.AssemblyInfoInputs.cache
+D:\engineering terms\front-end-engineer\Route\C41 RouteBackend\08 ASP.NET Core MVC\MVCProject\MVCProject\MVC.BLL\obj\Debug\net6.0\MVC.BLL.AssemblyInfo.cs
+D:\engineering terms\front-end-engineer\Route\C41 RouteBackend\08 ASP.NET Core MVC\MVCProject\MVCProject\MVC.BLL\obj\Debug\net6.0\MVC.BLL.csproj.CoreCompileInputs.cache
+D:\engineering terms\front-end-engineer\Route\C41 RouteBackend\08 ASP.NET Core MVC\MVCProject\MVCProject\MVC.BLL\obj\Debug\net6.0\MVC.BLL.sourcelink.json
+D:\engineering terms\front-end-engineer\Route\C41 RouteBackend\08 ASP.NET Core MVC\MVCProject\MVCProject\MVC.BLL\bin\Debug\net6.0\MVC.BLL.deps.json
+D:\engineering terms\front-end-engineer\Route\C41 RouteBackend\08 ASP.NET Core MVC\MVCProject\MVCProject\MVC.BLL\bin\Debug\net6.0\MVC.BLL.dll
+D:\engineering terms\front-end-engineer\Route\C41 RouteBackend\08 ASP.NET Core MVC\MVCProject\MVCProject\MVC.BLL\bin\Debug\net6.0\MVC.BLL.pdb
+D:\engineering terms\front-end-engineer\Route\C41 RouteBackend\08 ASP.NET Core MVC\MVCProject\MVCProject\MVC.BLL\bin\Debug\net6.0\MVC.DAL.dll
+D:\engineering terms\front-end-engineer\Route\C41 RouteBackend\08 ASP.NET Core MVC\MVCProject\MVCProject\MVC.BLL\bin\Debug\net6.0\MVC.DAL.pdb
+D:\engineering terms\front-end-engineer\Route\C41 RouteBackend\08 ASP.NET Core MVC\MVCProject\MVCProject\MVC.BLL\obj\Debug\net6.0\MVC.BLL.csproj.CopyComplete
+D:\engineering terms\front-end-engineer\Route\C41 RouteBackend\08 ASP.NET Core MVC\MVCProject\MVCProject\MVC.BLL\obj\Debug\net6.0\MVC.BLL.dll
+D:\engineering terms\front-end-engineer\Route\C41 RouteBackend\08 ASP.NET Core MVC\MVCProject\MVCProject\MVC.BLL\obj\Debug\net6.0\refint\MVC.BLL.dll
+D:\engineering terms\front-end-engineer\Route\C41 RouteBackend\08 ASP.NET Core MVC\MVCProject\MVCProject\MVC.BLL\obj\Debug\net6.0\MVC.BLL.pdb
+D:\engineering terms\front-end-engineer\Route\C41 RouteBackend\08 ASP.NET Core MVC\MVCProject\MVCProject\MVC.BLL\obj\Debug\net6.0\ref\MVC.BLL.dll

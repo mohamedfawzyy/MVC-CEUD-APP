@@ -1,0 +1,57 @@
+﻿@model List<UserInRolesViewModel>;
+@{
+    ViewData["Title"] = "Manage User Roles";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    var RoleName = ViewData["RoleName"] as string;
+}
+<div>
+    <h1>Manage User in @RoleName Role</h1>
+    @if(Model.Count() > 0)
+    {
+        <form method="post" asp-action="ManageUserRoles" asp-route-RoleName="@RoleName" enctype="multipart/form-data">
+            <div asp-validation-summary="ModelOnly"></div>
+       
+            <table class="table table-striped">
+                <thead>
+                    <tr>
+                        <th>Is Assigned</th>
+                        <th>User Id</th>
+                        <th>User Name</th>
+                    </tr>
+                </thead>
+                <tbody>
+           
+                    @for (int i = 0; i < Model.Count();i++)
+                    {
+                        <tr>
+                            <td >
+                                <div class="form-check">
+                                    <input asp-for="@Model[i].IsRolled" class="form-check-input" />
+                                </div>               
+                            </td>
+                            <td>
+                            <input asp-for="@Model[i].UserId" class="form-control" readonly />
+                            </td>
+                            <td>
+                            <input asp-for="@Model[i].UserName" class="form-control" readonly />
+                            </td>
+                        </tr>
+                    }
+              
+                </tbody>
+            </table>
+            <button class="btn btn-success" type="submit">Submit</button>
+           <a class="btn btn-secondary" asp-controller="Role" asp-action="Index">Back</a>
+         </form>
+           
+           
+     
+    }
+    else
+    {
+     <div class="alert alert-danger">There is No users to Manage</div>    
+    }
+
+</div>
+
+

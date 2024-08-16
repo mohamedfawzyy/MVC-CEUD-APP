@@ -34,7 +34,7 @@
             @foreach (var employee in Model)
             {
                 <tr>
-                    <td><img src="~/files/images/@employee.ImageName" class="w-100 rounded-circle"></td>
+                    <td><img src="~/files/images/@employee.ImageName" alt="Employee Image" class="w-100 rounded-circle"></td>
                     <td>@employee.Name</td>
                    <td>@Html.DisplayFor(M=>employee.Email)</td>
                    <td>@employee.Gender</td>

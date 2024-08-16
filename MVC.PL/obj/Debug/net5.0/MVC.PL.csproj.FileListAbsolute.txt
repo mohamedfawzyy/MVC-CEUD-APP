@@ -466,3 +466,10 @@ D:\engineering terms\front-end-engineer\Route\C41 RouteBackend\08 ASP.NET Core M
 D:\engineering terms\front-end-engineer\Route\C41 RouteBackend\08 ASP.NET Core MVC\MVCProject\MVCProject\MVC.PL\obj\Debug\net5.0\Razor\Views\User\Index.cshtml.g.cs
 D:\engineering terms\front-end-engineer\Route\C41 RouteBackend\08 ASP.NET Core MVC\MVCProject\MVCProject\MVC.PL\obj\Debug\net5.0\Razor\Views\User\Detailes.cshtml.g.cs
 D:\engineering terms\front-end-engineer\Route\C41 RouteBackend\08 ASP.NET Core MVC\MVCProject\MVCProject\MVC.PL\obj\Debug\net5.0\Razor\Views\User\Update.cshtml.g.cs
+D:\engineering terms\front-end-engineer\Route\C41 RouteBackend\08 ASP.NET Core MVC\MVCProject\MVCProject\MVC.PL\obj\Debug\net5.0\Razor\Views\User\Delete.cshtml.g.cs
+D:\engineering terms\front-end-engineer\Route\C41 RouteBackend\08 ASP.NET Core MVC\MVCProject\MVCProject\MVC.PL\obj\Debug\net5.0\Razor\Views\Role\Index.cshtml.g.cs
+D:\engineering terms\front-end-engineer\Route\C41 RouteBackend\08 ASP.NET Core MVC\MVCProject\MVCProject\MVC.PL\obj\Debug\net5.0\Razor\Views\Role\Create.cshtml.g.cs
+D:\engineering terms\front-end-engineer\Route\C41 RouteBackend\08 ASP.NET Core MVC\MVCProject\MVCProject\MVC.PL\obj\Debug\net5.0\Razor\Views\Role\Details.cshtml.g.cs
+D:\engineering terms\front-end-engineer\Route\C41 RouteBackend\08 ASP.NET Core MVC\MVCProject\MVCProject\MVC.PL\obj\Debug\net5.0\Razor\Views\Role\Update.cshtml.g.cs
+D:\engineering terms\front-end-engineer\Route\C41 RouteBackend\08 ASP.NET Core MVC\MVCProject\MVCProject\MVC.PL\obj\Debug\net5.0\Razor\Views\Role\ManageUserRoles.cshtml.g.cs
+D:\engineering terms\front-end-engineer\Route\C41 RouteBackend\08 ASP.NET Core MVC\MVCProject\MVCProject\MVC.PL\obj\Debug\net5.0\Razor\Views\User\Search.cshtml.g.cs

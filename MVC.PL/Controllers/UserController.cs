@@ -1,6 +1,8 @@
 ﻿using AutoMapper;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using MVC.DAL.Models;
 using MVC.PL.Models;
 using System.Collections.Generic;
@@ -9,6 +11,7 @@ using System.Threading.Tasks;
 
 namespace MVC.PL.Controllers
 {
+	[Authorize(Roles ="Admin")]
 	public class UserController : Controller
 	{
 		private readonly UserManager<ApplicationUser> userManager;
@@ -23,45 +26,52 @@ namespace MVC.PL.Controllers
             this.mapper = mapper;
             this.signInManager = signInManager;
 		}
-        public async  Task<IActionResult> Index(string SearchEmail)
+        public async  Task<IActionResult> Index()
 		{
 			var Users = new List<UserViewModel>();
-			if (string.IsNullOrEmpty(SearchEmail))
-			{
-				
-				 Users = this.userManager.Users.Select( U=>new UserViewModel() { 
+			
+				 Users =await this.userManager.Users.Select( U=>new UserViewModel() { 
 							Email = U.Email,
 							FName = U.FirstName,
 							LName = U.LastName,	
 							Id= U.Id,
 							PhoneNumber = U.PhoneNumber,	
 							Roles= this.userManager.GetRolesAsync(U).Result
-				}).ToList();
+				}).ToListAsync();
 				
-			}
-			else { 
-			
-				var User=await this.userManager.FindByEmailAsync(SearchEmail);	
-				if (User is not null) {
-					var UserVM = new UserViewModel()
-					{
-						Email = User.Email,
-						FName = User.FirstName,
-						LName = User.LastName,
-						Id = User.Id,
-						PhoneNumber = User.PhoneNumber,
-						Roles = this.userManager.GetRolesAsync(User).Result
-					};
-					Users=new List<UserViewModel>() {UserVM};	
-
-				}
-	
-			}
-			
+		
 			return View(Users);
 		}
+		[HttpGet]
+		public async Task<IActionResult> Search(string SearchInput)
+		{
+            var Users = new List<UserViewModel>();
+			if (string.IsNullOrEmpty(SearchInput))
+			{
+                Users = await this.userManager.Users.Select(U => new UserViewModel()
+                {
+                    Email = U.Email,
+                    FName = U.FirstName,
+                    LName = U.LastName,
+                    Id = U.Id,
+                    PhoneNumber = U.PhoneNumber,
+                    Roles = this.userManager.GetRolesAsync(U).Result
+                }).ToListAsync();
+				return PartialView(Users);
+            }
+			Users = await this.userManager.Users.Where(U => U.NormalizedEmail.Contains(SearchInput)).Select(U => new UserViewModel() {
+				Email = U.Email,
+				FName = U.FirstName,
+				LName = U.LastName,
+				Id = U.Id,
+				PhoneNumber = U.PhoneNumber,
+				Roles = this.userManager.GetRolesAsync(U).Result
+			}).ToListAsync();
+		
+			return PartialView(Users);
+		}
 
-		public async  Task<IActionResult> Detailes(string id,string ViewName="Detailes") {
+        public async  Task<IActionResult> Detailes(string id,string ViewName="Detailes") {
 
 			if (string.IsNullOrEmpty(id)) {
 				return BadRequest();			
@@ -108,5 +118,22 @@ namespace MVC.PL.Controllers
 		
 		
 		}
+
+		[HttpPost]
+		public async  Task<IActionResult> Delete(string id) { 
+			if(string.IsNullOrEmpty(id))
+				return BadRequest();
+			var User =await this.userManager.FindByIdAsync(id);
+			if (User != null)
+			{
+				var Result=await this.userManager.DeleteAsync(User);
+				if (Result.Succeeded)
+				{
+					return RedirectToAction(nameof(Index));
+				}
+			}
+			return await Detailes(id,ViewName:"Delete");
+		}
+	
 	}
 }

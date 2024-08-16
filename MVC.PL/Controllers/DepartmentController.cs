@@ -4,7 +4,6 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore.Metadata.Internal;
 using Microsoft.Extensions.Hosting;
-using Microsoft.VisualStudio.Web.CodeGeneration.Contracts.Messaging;
 using MVC.BLL.Interfaces;
 using MVC.DAL.Models;
 using MVC.PL.Models;
@@ -120,7 +119,9 @@ namespace MVC.PL.Controllers
             try
             {
                 this.unitOfWork.GetRepository<Department>().Delete(department);
-                return RedirectToAction(nameof(Index));
+               await this.unitOfWork.CompleteAsync();
+
+				return RedirectToAction(nameof(Index));
             }
             catch (Exception ex)
             {

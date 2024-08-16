@@ -1,0 +1,369 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\engineering terms\\front-end-engineer\\Route\\C41 RouteBackend\\08 ASP.NET Core MVC\\MVCProject\\MVCProject\\MVC.PL\\wwwroot\\css\\AuthStyle.css",
+      "PackagePath": "staticwebassets\\css\\AuthStyle.css"
+    },
+    {
+      "Id": "D:\\engineering terms\\front-end-engineer\\Route\\C41 RouteBackend\\08 ASP.NET Core MVC\\MVCProject\\MVCProject\\MVC.PL\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "D:\\engineering terms\\front-end-engineer\\Route\\C41 RouteBackend\\08 ASP.NET Core MVC\\MVCProject\\MVCProject\\MVC.PL\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "D:\\engineering terms\\front-end-engineer\\Route\\C41 RouteBackend\\08 ASP.NET Core MVC\\MVCProject\\MVCProject\\MVC.PL\\wwwroot\\files\\images\\4479c947-397f-4abf-a5b0-b7a2202213a6peronal img.jpg",
+      "PackagePath": "staticwebassets\\files\\images\\4479c947-397f-4abf-a5b0-b7a2202213a6peronal img.jpg"
+    },
+    {
+      "Id": "D:\\engineering terms\\front-end-engineer\\Route\\C41 RouteBackend\\08 ASP.NET Core MVC\\MVCProject\\MVCProject\\MVC.PL\\wwwroot\\files\\images\\57e20f6b-7ef8-435e-bfde-963c08e8ff84persoalImg2.jpg",
+      "PackagePath": "staticwebassets\\files\\images\\57e20f6b-7ef8-435e-bfde-963c08e8ff84persoalImg2.jpg"
+    },
+    {
+      "Id": "D:\\engineering terms\\front-end-engineer\\Route\\C41 RouteBackend\\08 ASP.NET Core MVC\\MVCProject\\MVCProject\\MVC.PL\\wwwroot\\files\\images\\9502ce0b-56de-4fe1-a282-e90089dc5598peronal img.jpg",
+      "PackagePath": "staticwebassets\\files\\images\\9502ce0b-56de-4fe1-a282-e90089dc5598peronal img.jpg"
+    },
+    {
+      "Id": "D:\\engineering terms\\front-end-engineer\\Route\\C41 RouteBackend\\08 ASP.NET Core MVC\\MVCProject\\MVCProject\\MVC.PL\\wwwroot\\files\\images\\9fc1dd96-8716-4bd4-84c9-9e91f1688cc9persoalImg2.jpg",
+      "PackagePath": "staticwebassets\\files\\images\\9fc1dd96-8716-4bd4-84c9-9e91f1688cc9persoalImg2.jpg"
+    },
+    {
+      "Id": "D:\\engineering terms\\front-end-engineer\\Route\\C41 RouteBackend\\08 ASP.NET Core MVC\\MVCProject\\MVCProject\\MVC.PL\\wwwroot\\files\\images\\bg.png",
+      "PackagePath": "staticwebassets\\files\\images\\bg.png"
+    },
+    {
+      "Id": "D:\\engineering terms\\front-end-engineer\\Route\\C41 RouteBackend\\08 ASP.NET Core MVC\\MVCProject\\MVCProject\\MVC.PL\\wwwroot\\files\\images\\c01e0412-c50b-4b46-a077-7489e6a390eepersoalImg2.jpg",
+      "PackagePath": "staticwebassets\\files\\images\\c01e0412-c50b-4b46-a077-7489e6a390eepersoalImg2.jpg"
+    },
+    {
+      "Id": "D:\\engineering terms\\front-end-engineer\\Route\\C41 RouteBackend\\08 ASP.NET Core MVC\\MVCProject\\MVCProject\\MVC.PL\\wwwroot\\files\\images\\db10a985-71a0-4210-a224-695b7c87dc8eperonal img.jpg",
+      "PackagePath": "staticwebassets\\files\\images\\db10a985-71a0-4210-a224-695b7c87dc8eperonal img.jpg"
+    },
+    {
+      "Id": "D:\\engineering terms\\front-end-engineer\\Route\\C41 RouteBackend\\08 ASP.NET Core MVC\\MVCProject\\MVCProject\\MVC.PL\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "D:\\engineering terms\\front-end-engineer\\Route\\C41 RouteBackend\\08 ASP.NET Core MVC\\MVCProject\\MVCProject\\MVC.PL\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "D:\\engineering terms\\front-end-engineer\\Route\\C41 RouteBackend\\08 ASP.NET Core MVC\\MVCProject\\MVCProject\\MVC.PL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "D:\\engineering terms\\front-end-engineer\\Route\\C41 RouteBackend\\08 ASP.NET Core MVC\\MVCProject\\MVCProject\\MVC.PL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "D:\\engineering terms\\front-end-engineer\\Route\\C41 RouteBackend\\08 ASP.NET Core MVC\\MVCProject\\MVCProject\\MVC.PL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "D:\\engineering terms\\front-end-engineer\\Route\\C41 RouteBackend\\08 ASP.NET Core MVC\\MVCProject\\MVCProject\\MVC.PL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "D:\\engineering terms\\front-end-engineer\\Route\\C41 RouteBackend\\08 ASP.NET Core MVC\\MVCProject\\MVCProject\\MVC.PL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "D:\\engineering terms\\front-end-engineer\\Route\\C41 RouteBackend\\08 ASP.NET Core MVC\\MVCProject\\MVCProject\\MVC.PL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "D:\\engineering terms\\front-end-engineer\\Route\\C41 RouteBackend\\08 ASP.NET Core MVC\\MVCProject\\MVCProject\\MVC.PL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "D:\\engineering terms\\front-end-engineer\\Route\\C41 RouteBackend\\08 ASP.NET Core MVC\\MVCProject\\MVCProject\\MVC.PL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "D:\\engineering terms\\front-end-engineer\\Route\\C41 RouteBackend\\08 ASP.NET Core MVC\\MVCProject\\MVCProject\\MVC.PL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "D:\\engineering terms\\front-end-engineer\\Route\\C41 RouteBackend\\08 ASP.NET Core MVC\\MVCProject\\MVCProject\\MVC.PL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "D:\\engineering terms\\front-end-engineer\\Route\\C41 RouteBackend\\08 ASP.NET Core MVC\\MVCProject\\MVCProject\\MVC.PL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\engineering terms\\front-end-engineer\\Route\\C41 RouteBackend\\08 ASP.NET Core MVC\\MVCProject\\MVCProject\\MVC.PL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "D:\\engineering terms\\front-end-engineer\\Route\\C41 RouteBackend\\08 ASP.NET Core MVC\\MVCProject\\MVCProject\\MVC.PL\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "D:\\engineering terms\\front-end-engineer\\Route\\C41 RouteBackend\\08 ASP.NET Core MVC\\MVCProject\\MVCProject\\MVC.PL\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "D:\\engineering terms\\front-end-engineer\\Route\\C41 RouteBackend\\08 ASP.NET Core MVC\\MVCProject\\MVCProject\\MVC.PL\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "D:\\engineering terms\\front-end-engineer\\Route\\C41 RouteBackend\\08 ASP.NET Core MVC\\MVCProject\\MVCProject\\MVC.PL\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "D:\\engineering terms\\front-end-engineer\\Route\\C41 RouteBackend\\08 ASP.NET Core MVC\\MVCProject\\MVCProject\\MVC.PL\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "D:\\engineering terms\\front-end-engineer\\Route\\C41 RouteBackend\\08 ASP.NET Core MVC\\MVCProject\\MVCProject\\MVC.PL\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "D:\\engineering terms\\front-end-engineer\\Route\\C41 RouteBackend\\08 ASP.NET Core MVC\\MVCProject\\MVCProject\\MVC.PL\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\engineering terms\\front-end-engineer\\Route\\C41 RouteBackend\\08 ASP.NET Core MVC\\MVCProject\\MVCProject\\MVC.PL\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "D:\\engineering terms\\front-end-engineer\\Route\\C41 RouteBackend\\08 ASP.NET Core MVC\\MVCProject\\MVCProject\\MVC.PL\\wwwroot\\lib\\font-awesome\\css\\all.css",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\css\\all.css"
+    },
+    {
+      "Id": "D:\\engineering terms\\front-end-engineer\\Route\\C41 RouteBackend\\08 ASP.NET Core MVC\\MVCProject\\MVCProject\\MVC.PL\\wwwroot\\lib\\font-awesome\\css\\all.min.css",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\css\\all.min.css"
+    },
+    {
+      "Id": "D:\\engineering terms\\front-end-engineer\\Route\\C41 RouteBackend\\08 ASP.NET Core MVC\\MVCProject\\MVCProject\\MVC.PL\\wwwroot\\lib\\font-awesome\\css\\brands.css",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\css\\brands.css"
+    },
+    {
+      "Id": "D:\\engineering terms\\front-end-engineer\\Route\\C41 RouteBackend\\08 ASP.NET Core MVC\\MVCProject\\MVCProject\\MVC.PL\\wwwroot\\lib\\font-awesome\\css\\brands.min.css",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\css\\brands.min.css"
+    },
+    {
+      "Id": "D:\\engineering terms\\front-end-engineer\\Route\\C41 RouteBackend\\08 ASP.NET Core MVC\\MVCProject\\MVCProject\\MVC.PL\\wwwroot\\lib\\font-awesome\\css\\fontawesome.css",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\css\\fontawesome.css"
+    },
+    {
+      "Id": "D:\\engineering terms\\front-end-engineer\\Route\\C41 RouteBackend\\08 ASP.NET Core MVC\\MVCProject\\MVCProject\\MVC.PL\\wwwroot\\lib\\font-awesome\\css\\fontawesome.min.css",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\css\\fontawesome.min.css"
+    },
+    {
+      "Id": "D:\\engineering terms\\front-end-engineer\\Route\\C41 RouteBackend\\08 ASP.NET Core MVC\\MVCProject\\MVCProject\\MVC.PL\\wwwroot\\lib\\font-awesome\\css\\regular.css",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\css\\regular.css"
+    },
+    {
+      "Id": "D:\\engineering terms\\front-end-engineer\\Route\\C41 RouteBackend\\08 ASP.NET Core MVC\\MVCProject\\MVCProject\\MVC.PL\\wwwroot\\lib\\font-awesome\\css\\regular.min.css",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\css\\regular.min.css"
+    },
+    {
+      "Id": "D:\\engineering terms\\front-end-engineer\\Route\\C41 RouteBackend\\08 ASP.NET Core MVC\\MVCProject\\MVCProject\\MVC.PL\\wwwroot\\lib\\font-awesome\\css\\solid.css",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\css\\solid.css"
+    },
+    {
+      "Id": "D:\\engineering terms\\front-end-engineer\\Route\\C41 RouteBackend\\08 ASP.NET Core MVC\\MVCProject\\MVCProject\\MVC.PL\\wwwroot\\lib\\font-awesome\\css\\solid.min.css",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\css\\solid.min.css"
+    },
+    {
+      "Id": "D:\\engineering terms\\front-end-engineer\\Route\\C41 RouteBackend\\08 ASP.NET Core MVC\\MVCProject\\MVCProject\\MVC.PL\\wwwroot\\lib\\font-awesome\\css\\svg-with-js.css",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\css\\svg-with-js.css"
+    },
+    {
+      "Id": "D:\\engineering terms\\front-end-engineer\\Route\\C41 RouteBackend\\08 ASP.NET Core MVC\\MVCProject\\MVCProject\\MVC.PL\\wwwroot\\lib\\font-awesome\\css\\svg-with-js.min.css",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\css\\svg-with-js.min.css"
+    },
+    {
+      "Id": "D:\\engineering terms\\front-end-engineer\\Route\\C41 RouteBackend\\08 ASP.NET Core MVC\\MVCProject\\MVCProject\\MVC.PL\\wwwroot\\lib\\font-awesome\\css\\v4-font-face.css",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\css\\v4-font-face.css"
+    },
+    {
+      "Id": "D:\\engineering terms\\front-end-engineer\\Route\\C41 RouteBackend\\08 ASP.NET Core MVC\\MVCProject\\MVCProject\\MVC.PL\\wwwroot\\lib\\font-awesome\\css\\v4-font-face.min.css",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\css\\v4-font-face.min.css"
+    },
+    {
+      "Id": "D:\\engineering terms\\front-end-engineer\\Route\\C41 RouteBackend\\08 ASP.NET Core MVC\\MVCProject\\MVCProject\\MVC.PL\\wwwroot\\lib\\font-awesome\\css\\v4-shims.css",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\css\\v4-shims.css"
+    },
+    {
+      "Id": "D:\\engineering terms\\front-end-engineer\\Route\\C41 RouteBackend\\08 ASP.NET Core MVC\\MVCProject\\MVCProject\\MVC.PL\\wwwroot\\lib\\font-awesome\\css\\v4-shims.min.css",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\css\\v4-shims.min.css"
+    },
+    {
+      "Id": "D:\\engineering terms\\front-end-engineer\\Route\\C41 RouteBackend\\08 ASP.NET Core MVC\\MVCProject\\MVCProject\\MVC.PL\\wwwroot\\lib\\font-awesome\\css\\v5-font-face.css",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\css\\v5-font-face.css"
+    },
+    {
+      "Id": "D:\\engineering terms\\front-end-engineer\\Route\\C41 RouteBackend\\08 ASP.NET Core MVC\\MVCProject\\MVCProject\\MVC.PL\\wwwroot\\lib\\font-awesome\\css\\v5-font-face.min.css",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\css\\v5-font-face.min.css"
+    },
+    {
+      "Id": "D:\\engineering terms\\front-end-engineer\\Route\\C41 RouteBackend\\08 ASP.NET Core MVC\\MVCProject\\MVCProject\\MVC.PL\\wwwroot\\lib\\font-awesome\\js\\all.js",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\js\\all.js"
+    },
+    {
+      "Id": "D:\\engineering terms\\front-end-engineer\\Route\\C41 RouteBackend\\08 ASP.NET Core MVC\\MVCProject\\MVCProject\\MVC.PL\\wwwroot\\lib\\font-awesome\\js\\all.min.js",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\js\\all.min.js"
+    },
+    {
+      "Id": "D:\\engineering terms\\front-end-engineer\\Route\\C41 RouteBackend\\08 ASP.NET Core MVC\\MVCProject\\MVCProject\\MVC.PL\\wwwroot\\lib\\font-awesome\\js\\brands.js",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\js\\brands.js"
+    },
+    {
+      "Id": "D:\\engineering terms\\front-end-engineer\\Route\\C41 RouteBackend\\08 ASP.NET Core MVC\\MVCProject\\MVCProject\\MVC.PL\\wwwroot\\lib\\font-awesome\\js\\brands.min.js",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\js\\brands.min.js"
+    },
+    {
+      "Id": "D:\\engineering terms\\front-end-engineer\\Route\\C41 RouteBackend\\08 ASP.NET Core MVC\\MVCProject\\MVCProject\\MVC.PL\\wwwroot\\lib\\font-awesome\\js\\conflict-detection.js",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\js\\conflict-detection.js"
+    },
+    {
+      "Id": "D:\\engineering terms\\front-end-engineer\\Route\\C41 RouteBackend\\08 ASP.NET Core MVC\\MVCProject\\MVCProject\\MVC.PL\\wwwroot\\lib\\font-awesome\\js\\conflict-detection.min.js",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\js\\conflict-detection.min.js"
+    },
+    {
+      "Id": "D:\\engineering terms\\front-end-engineer\\Route\\C41 RouteBackend\\08 ASP.NET Core MVC\\MVCProject\\MVCProject\\MVC.PL\\wwwroot\\lib\\font-awesome\\js\\fontawesome.js",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\js\\fontawesome.js"
+    },
+    {
+      "Id": "D:\\engineering terms\\front-end-engineer\\Route\\C41 RouteBackend\\08 ASP.NET Core MVC\\MVCProject\\MVCProject\\MVC.PL\\wwwroot\\lib\\font-awesome\\js\\fontawesome.min.js",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\js\\fontawesome.min.js"
+    },
+    {
+      "Id": "D:\\engineering terms\\front-end-engineer\\Route\\C41 RouteBackend\\08 ASP.NET Core MVC\\MVCProject\\MVCProject\\MVC.PL\\wwwroot\\lib\\font-awesome\\js\\regular.js",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\js\\regular.js"
+    },
+    {
+      "Id": "D:\\engineering terms\\front-end-engineer\\Route\\C41 RouteBackend\\08 ASP.NET Core MVC\\MVCProject\\MVCProject\\MVC.PL\\wwwroot\\lib\\font-awesome\\js\\regular.min.js",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\js\\regular.min.js"
+    },
+    {
+      "Id": "D:\\engineering terms\\front-end-engineer\\Route\\C41 RouteBackend\\08 ASP.NET Core MVC\\MVCProject\\MVCProject\\MVC.PL\\wwwroot\\lib\\font-awesome\\js\\solid.js",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\js\\solid.js"
+    },
+    {
+      "Id": "D:\\engineering terms\\front-end-engineer\\Route\\C41 RouteBackend\\08 ASP.NET Core MVC\\MVCProject\\MVCProject\\MVC.PL\\wwwroot\\lib\\font-awesome\\js\\solid.min.js",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\js\\solid.min.js"
+    },
+    {
+      "Id": "D:\\engineering terms\\front-end-engineer\\Route\\C41 RouteBackend\\08 ASP.NET Core MVC\\MVCProject\\MVCProject\\MVC.PL\\wwwroot\\lib\\font-awesome\\js\\v4-shims.js",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\js\\v4-shims.js"
+    },
+    {
+      "Id": "D:\\engineering terms\\front-end-engineer\\Route\\C41 RouteBackend\\08 ASP.NET Core MVC\\MVCProject\\MVCProject\\MVC.PL\\wwwroot\\lib\\font-awesome\\js\\v4-shims.min.js",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\js\\v4-shims.min.js"
+    },
+    {
+      "Id": "D:\\engineering terms\\front-end-engineer\\Route\\C41 RouteBackend\\08 ASP.NET Core MVC\\MVCProject\\MVCProject\\MVC.PL\\wwwroot\\lib\\font-awesome\\sprites\\brands.svg",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\sprites\\brands.svg"
+    },
+    {
+      "Id": "D:\\engineering terms\\front-end-engineer\\Route\\C41 RouteBackend\\08 ASP.NET Core MVC\\MVCProject\\MVCProject\\MVC.PL\\wwwroot\\lib\\font-awesome\\sprites\\regular.svg",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\sprites\\regular.svg"
+    },
+    {
+      "Id": "D:\\engineering terms\\front-end-engineer\\Route\\C41 RouteBackend\\08 ASP.NET Core MVC\\MVCProject\\MVCProject\\MVC.PL\\wwwroot\\lib\\font-awesome\\sprites\\solid.svg",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\sprites\\solid.svg"
+    },
+    {
+      "Id": "D:\\engineering terms\\front-end-engineer\\Route\\C41 RouteBackend\\08 ASP.NET Core MVC\\MVCProject\\MVCProject\\MVC.PL\\wwwroot\\lib\\font-awesome\\webfonts\\fa-brands-400.ttf",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\webfonts\\fa-brands-400.ttf"
+    },
+    {
+      "Id": "D:\\engineering terms\\front-end-engineer\\Route\\C41 RouteBackend\\08 ASP.NET Core MVC\\MVCProject\\MVCProject\\MVC.PL\\wwwroot\\lib\\font-awesome\\webfonts\\fa-brands-400.woff2",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\webfonts\\fa-brands-400.woff2"
+    },
+    {
+      "Id": "D:\\engineering terms\\front-end-engineer\\Route\\C41 RouteBackend\\08 ASP.NET Core MVC\\MVCProject\\MVCProject\\MVC.PL\\wwwroot\\lib\\font-awesome\\webfonts\\fa-regular-400.ttf",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\webfonts\\fa-regular-400.ttf"
+    },
+    {
+      "Id": "D:\\engineering terms\\front-end-engineer\\Route\\C41 RouteBackend\\08 ASP.NET Core MVC\\MVCProject\\MVCProject\\MVC.PL\\wwwroot\\lib\\font-awesome\\webfonts\\fa-regular-400.woff2",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\webfonts\\fa-regular-400.woff2"
+    },
+    {
+      "Id": "D:\\engineering terms\\front-end-engineer\\Route\\C41 RouteBackend\\08 ASP.NET Core MVC\\MVCProject\\MVCProject\\MVC.PL\\wwwroot\\lib\\font-awesome\\webfonts\\fa-solid-900.ttf",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\webfonts\\fa-solid-900.ttf"
+    },
+    {
+      "Id": "D:\\engineering terms\\front-end-engineer\\Route\\C41 RouteBackend\\08 ASP.NET Core MVC\\MVCProject\\MVCProject\\MVC.PL\\wwwroot\\lib\\font-awesome\\webfonts\\fa-solid-900.woff2",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\webfonts\\fa-solid-900.woff2"
+    },
+    {
+      "Id": "D:\\engineering terms\\front-end-engineer\\Route\\C41 RouteBackend\\08 ASP.NET Core MVC\\MVCProject\\MVCProject\\MVC.PL\\wwwroot\\lib\\font-awesome\\webfonts\\fa-v4compatibility.ttf",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\webfonts\\fa-v4compatibility.ttf"
+    },
+    {
+      "Id": "D:\\engineering terms\\front-end-engineer\\Route\\C41 RouteBackend\\08 ASP.NET Core MVC\\MVCProject\\MVCProject\\MVC.PL\\wwwroot\\lib\\font-awesome\\webfonts\\fa-v4compatibility.woff2",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\webfonts\\fa-v4compatibility.woff2"
+    },
+    {
+      "Id": "D:\\engineering terms\\front-end-engineer\\Route\\C41 RouteBackend\\08 ASP.NET Core MVC\\MVCProject\\MVCProject\\MVC.PL\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\engineering terms\\front-end-engineer\\Route\\C41 RouteBackend\\08 ASP.NET Core MVC\\MVCProject\\MVCProject\\MVC.PL\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "D:\\engineering terms\\front-end-engineer\\Route\\C41 RouteBackend\\08 ASP.NET Core MVC\\MVCProject\\MVCProject\\MVC.PL\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "D:\\engineering terms\\front-end-engineer\\Route\\C41 RouteBackend\\08 ASP.NET Core MVC\\MVCProject\\MVCProject\\MVC.PL\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "D:\\engineering terms\\front-end-engineer\\Route\\C41 RouteBackend\\08 ASP.NET Core MVC\\MVCProject\\MVCProject\\MVC.PL\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "D:\\engineering terms\\front-end-engineer\\Route\\C41 RouteBackend\\08 ASP.NET Core MVC\\MVCProject\\MVCProject\\MVC.PL\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "D:\\engineering terms\\front-end-engineer\\Route\\C41 RouteBackend\\08 ASP.NET Core MVC\\MVCProject\\MVCProject\\MVC.PL\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "D:\\engineering terms\\front-end-engineer\\Route\\C41 RouteBackend\\08 ASP.NET Core MVC\\MVCProject\\MVCProject\\MVC.PL\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "D:\\engineering terms\\front-end-engineer\\Route\\C41 RouteBackend\\08 ASP.NET Core MVC\\MVCProject\\MVCProject\\MVC.PL\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\engineering terms\\front-end-engineer\\Route\\C41 RouteBackend\\08 ASP.NET Core MVC\\MVCProject\\MVCProject\\MVC.PL\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "D:\\engineering terms\\front-end-engineer\\Route\\C41 RouteBackend\\08 ASP.NET Core MVC\\MVCProject\\MVCProject\\MVC.PL\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "D:\\engineering terms\\front-end-engineer\\Route\\C41 RouteBackend\\08 ASP.NET Core MVC\\MVCProject\\MVCProject\\MVC.PL\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.MVC.PL.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.MVC.PL.props",
+      "PackagePath": "build\\MVC.PL.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.MVC.PL.props",
+      "PackagePath": "buildMultiTargeting\\MVC.PL.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.MVC.PL.props",
+      "PackagePath": "buildTransitive\\MVC.PL.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

@@ -1,0 +1,57 @@
+﻿@model IEnumerable<UserViewModel>
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>@Html.DisplayNameFor(U => U.Id)</th>
+            <th>@Html.DisplayNameFor(U => U.FName)</th>
+            <th>@Html.DisplayNameFor(U => U.LName)</th>
+            <th>@Html.DisplayNameFor(U => U.Email)</th>
+            <th>@Html.DisplayNameFor(U => U.Roles)</th>
+            <th>@Html.DisplayNameFor(U => U.PhoneNumber)</th>
+            <th>View</th>
+            <th>Update</th>
+            <th>Delete</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var user in Model)
+        {
+            <tr>
+                <td>@user.Id</td>
+                <td>@user.FName</td>
+                <td>@user.LName</td>
+                <td>@Html.DisplayFor(M => user.Email)</td>
+                <td>@string.Join(" ", user.Roles)</td>
+                <td>@Html.DisplayFor(M => user.PhoneNumber)</td>
+                <td><a class="btn btn-info" asp-action="Detailes" asp-route-id="@user.Id"><i class="fa-regular fa-eye"></i>View</a></td>
+                <td><a class="btn btn-warning" asp-action="Update" asp-route-id="@user.Id"><i class="fa-solid fa-pen"></i>Update</a></td>
+                <td>
+                    <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#@string.Concat("id", user.Id)">
+                        <i class="fa-solid fa-trash"></i> Delete
+                    </button>
+                </td>
+                <div class="modal fade" id="@string.Concat("id",user.Id)" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h1 class="modal-title fs-5" id="staticBackdropLabel">Delete User @user.FName @user.LName</h1>
+                                <button type="button" class="btn btn-close" data-bs-dismiss="modal" aria-label="Close"><i class="fa-solid fa-xmark"></i></button>
+                            </div>
+                            <div class="modal-body">
+                                <form asp-action="Delete" asp-route-id="@user.Id">
+                                    <p class="text-center">Are you sure to Delete This user</p>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                        <button type="submit" class="btn btn-danger">Delete</button>
+                                    </div>
+                                </form>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </tr>
+
+        }
+    </tbody>
+</table>
